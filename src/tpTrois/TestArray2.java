@@ -47,7 +47,7 @@ public class TestArray2 {
 			System.out.println("Index du premier élément du tableau de valeur 15 = "+index15);		
 		}
 		
-		//Number of duplicated element :
+		//Number of duplicated element : // Attention en cas de triplet, algorithme à améliorer.
 		int nombreDoublon = 0;
 		// Parcours des éléments 'i' du tableau moins le dernier
 		for(int i=0; i<array.length-1; i++) {
