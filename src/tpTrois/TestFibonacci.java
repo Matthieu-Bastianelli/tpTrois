@@ -36,12 +36,15 @@ public class TestFibonacci {
 		} else if (rangN == 1) {
 			System.out.println(1);
 		} else {
+			
 			// calculation of Fibonacci value for N rank upper than 2;
+			//Initialization
 			int val1 = 0;
 			int val2 = 1;
 			int valeurN=val2+val1;
 			int indice=2;
 			
+			// Calculation of the Fibonacci's value which is associated with 'indice' until the 'indice' reach the N rank.
 			while (indice != rangN) {
 				val1=val2;
 				val2=valeurN;
